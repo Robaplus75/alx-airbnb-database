@@ -1,3 +1,5 @@
+-- AFTER ANALYZING WITH ( EXPLAIN AND ANALYZE ) THE FOLLOWING COLUMNS NEEDS TO BE INDEXED
+
 CREATE INDEX idx_booking_user_id ON Booking(user_id);
 CREATE INDEX idx_booking_property_id ON Booking(property_id);
 CREATE INDEX idx_property_user_id ON Property(host_id);
